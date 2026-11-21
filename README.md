@@ -30,73 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global cloud infrastructure testing and emulation market is valued at approximately **$13B–$15B** (projected to reach **$30B–$45B** by the early 2030s at an ~11–13% CAGR), driven by multi-cloud complexity, microservices shift-left testing, and AI container workloads. The sector remains **highly fragmented** across specialized cloud mockers, local virtual Kubernetes runtimes, and remote container test runners, with hyper-scalers and developer-platform leaders (e.g., Docker, OpenAI) selectively acquiring key category innovators rather than a single winner-take-all monopoly.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[LocalStack Cloud / Pro](https://localstack.cloud)**  
-
-  Commercial cloud testing and team collaboration platform extending open-source LocalStack with Cloud Pods state snapshots, CI analytics, IAM policy enforcement, and extended AWS service coverage.
-
-
-
-- **[Testcontainers Cloud (Docker)](https://testcontainers.com)**  
-
-  Serverless on-demand container runtime offloading heavy Testcontainers integration tests and local cloud emulators from developer laptops and CI runners to the cloud.
-
-
-
-- **[Serverless Framework (Serverless Inc. Cloud)](https://serverless.com)**  
-
-  Managed cloud deployment, monitoring, and multi-stage orchestration platform for AWS Lambda, API Gateway, and event-driven cloud infrastructure.
-
-
-
-- **[DevZero](https://devzero.io)**  
-
-  Managed cloud infrastructure platform delivering production-like Kubernetes and VM environments with instant hot-reloading and database branching.
-
-
-
-- **[Gitpod (Ona)](https://gitpod.io)**  
-
-  Cloud Development Environment (CDE) platform automating ephemeral, standardized cloud infrastructure workspaces for developers and AI agents directly from Git.
-
-
-
-- **[Okteto Cloud](https://okteto.com)**  
-
-  Cloud-native development platform enabling teams to deploy, test, and preview microservices inside realistic remote Kubernetes namespaces.
-
-
-
-- **[Codeanywhere](https://codeanywhere.com)**  
-
-  Browser-based cloud IDE and container workspace service providing instant SSH, Git, and DevContainer infrastructure from any device.
-
-
-
-- **[vCluster Cloud / Loft Labs](https://vcluster.com)**  
-
-  Enterprise control plane for provisioning multi-tenant virtual Kubernetes clusters, sleep-mode cost optimization, and self-service developer namespaces.
-
-
-
-- **[Minikube Cloud / Managed K8s Sandboxes (KillerCoda / Instruqt)](https://killercoda.com)**  
-
-  Browser-hosted interactive Kubernetes and cloud-native lab environments for running isolated infrastructure sandboxes with zero local setup.
+| Platform | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Testcontainers Cloud (Docker)](https://testcontainers.com)** | ~$2.1B Valuation / ~$165M ARR (Docker acquired AtomicJar) | $9/user/month (Docker Pro billed annually; includes 100 cloud runtime mins) | Free Tier (Personal): 50 lifetime one-time worker minutes & 1 concurrent CI session; libraries free locally | Serverless on-demand container runtime offloading heavy Testcontainers integration tests and local cloud emulators from developer laptops and CI runners to the cloud. |
+| **[Gitpod (Ona)](https://gitpod.io)** | ~$41M Funding / ~$5M ARR (Acquired by OpenAI in 2026) | $9/user/month (Pay-As-You-Go tier with baseline 1,000 credits) | 500 credits/month (up to 50 workspace hours/month) for public repositories and individuals | Cloud Development Environment (CDE) platform automating ephemeral, standardized cloud infrastructure workspaces for developers and AI agents directly from Git. |
+| **[LocalStack Cloud / Pro](https://localstack.cloud)** | ~$100M–$250M Valuation (est.) / $28.2M Total Raised / ~$5M+ ARR | $39/license/month (Base Team tier billed annually) | Permanent Community/Hobby plan: Core AWS emulation free for non-commercial usage; 14-day free trial on Pro | Commercial cloud testing and team collaboration platform extending open-source LocalStack with Cloud Pods state snapshots, CI analytics, IAM policy enforcement, and extended AWS service coverage. |
+| **[vCluster Cloud / Loft Labs](https://vcluster.com)** | ~$75M–$100M Valuation (est.) / $28.6M Total Raised / 4.6x YoY ARR | Custom enterprise quotes (pricing tied to vCPU/GPU compute consumption rather than seat licenses) | Permanent Free Platform Tier: Unlimited tenant clusters up to 64 vCPUs or 32 GPUs & 1 HA virtual control plane | Enterprise control plane for provisioning multi-tenant virtual Kubernetes clusters, sleep-mode cost optimization, and self-service developer namespaces. |
+| **[DevZero](https://devzero.io)** | ~$50M–$80M Valuation (est.) / $26M Total Raised | $5/CPU/month (Pro tier tracked at minute-level granularity across fleet) | Permanent Free Tier: Unlimited K8s clusters, resource/cost monitoring, multi-cloud governance, and 30-day data retention | Managed cloud infrastructure platform delivering production-like Kubernetes and VM environments with instant hot-reloading and database branching. |
+| **[Okteto Cloud](https://okteto.com)** | ~$60M Valuation / $18.1M Total Raised / ~$5M ARR | Custom quote per user seat (Scale tier for teams; contact sales for pricing) | Permanent Free Starter Plan: Up to 5 users and 500 environments/month on self-hosted Kubernetes | Cloud-native development platform enabling teams to deploy, test, and preview microservices inside realistic remote Kubernetes namespaces. |
+| **[Serverless Framework (Serverless Inc. Cloud)](https://serverless.com)** | ~$30M–$50M Valuation (est.) / $13M Total Raised / ~$1.5M ARR | $4/credit (Starter credit bundles begin at ~$114–$142/month for commercial users) | Permanent Free Tier: 100% free for all developers and organizations with under $2M annual revenue | Managed cloud deployment, monitoring, and multi-stage orchestration platform for AWS Lambda, API Gateway, and event-driven cloud infrastructure. |
+| **[Minikube Cloud / Managed K8s Sandboxes (KillerCoda / Instruqt)](https://killercoda.com)** | ~$5M–$15M Market footprint (KillerCoda bootstrapped / Instruqt raised $18M+) | KillerCoda PLUS at $9.99/month; Instruqt custom annual packages starting ~$15,000/year (~1,000 lab hrs) | KillerCoda Free Tier: 1 concurrent scenario, max 1 hour per session on community playgrounds; Instruqt: vendor-guided PoC trial only | Browser-hosted interactive Kubernetes and cloud-native lab environments for running isolated infrastructure sandboxes with zero local setup. |
+| **[Codeanywhere](https://codeanywhere.com)** | ~$2M–$5M Historical Valuation / ~$1M Total Raised / Wound Down (2026) | Historical: $12/month (Basic tier); platform ceased operations July 1, 2026 | Historical: 7-day free trial (up to 1 container); service currently wound down / redirected to Daytona | Browser-based cloud IDE and container workspace service providing instant SSH, Git, and DevContainer infrastructure from any device. |
 
 
 
