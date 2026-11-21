@@ -1,47 +1,54 @@
-# Awesome-Cloud-Infrastructure-Local-Cloud-Mocking
+# ☁️ Awesome Cloud Infrastructure & Local Cloud Mocking
 
-## Top Cloud Infrastructure & Local Cloud Mocking Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cloud Infrastructure &amp; Local Cloud Mocking" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Infrastructure-Local-Cloud-Mocking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Infrastructure-Local-Cloud-Mocking?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Infrastructure-Local-Cloud-Mocking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Infrastructure-Local-Cloud-Mocking?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Infrastructure-Local-Cloud-Mocking/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+## 🚀 Top Cloud Infrastructure & Local Cloud Mocking Ecosystem
 
-*Focused on Local Cloud Mocking (AWS/GCP/Azure/Cloudflare), Ephemeral Infrastructure Testing, Containerized Test Environments & Virtual Kubernetes Clusters*  
+> ⚡ **Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+> 🌐 *Focused on Local Cloud Mocking (AWS / Azure / GCP / Cloudflare), Ephemeral Infrastructure Testing, Containerized Test Environments & Virtual Kubernetes Clusters*  
+> 📅 **Last updated: November 2026**
 
-**Last updated: November 2026**
+This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Cloud Infrastructure & Local Cloud Mocking**. These tools mock, emulate, provision, and test cloud provider APIs, storage/queue services, Kubernetes clusters, and isolated ephemeral environments locally and in CI/CD pipelines without incurring live cloud costs, egress fees, or network latency.
 
+Key tools include **LocalStack Cloud**, **Serverless Framework**, **Testcontainers Cloud**, **DevZero**, **Gitpod (Ona)**, **Okteto**, **Daytona**, **vCluster**, and **floci-io/floci**.
 
+Whether you are building microservices on AWS/Azure/GCP, validating Infrastructure-as-Code (Terraform / OpenTofu), or debugging containerized cloud workflows, this guide outlines both commercial SaaS platforms and leading open-source options.
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Cloud Infrastructure & Local Cloud Mocking**. These tools mock, emulate, provision, and test cloud provider APIs, storage/queue services, Kubernetes clusters, and isolated ephemeral environments locally and in CI/CD pipelines without incurring live cloud costs or network latency.
+---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Frameworks & Architecture Patterns](#️-frameworks--architecture-patterns)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Share](#-support--share)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Examples** include LocalStack Cloud, Serverless Framework, Minikube Cloud, Testcontainers Cloud, DevZero, Gitpod (Ona), Okteto, Daytona, Codeanywhere, vCluster, and floci-io/floci (the category leaders and popular runtimes). 
+---
 
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for local AWS/Azure/GCP/Cloudflare cloud mocking (`LocalStack`, `floci-io/floci`, `Moto`, `Azurite`, `Miniflare`, `MinIO`), programmatic test infrastructure (`Testcontainers`), local Kubernetes (`Minikube`, `kind`, `k3d`, `vCluster`), and self-hosted dev infrastructure (`Daytona`, `DevPod`, `Coder`) — ideal for cloud architects, DevOps/platform engineers, backend developers, and QA automation teams.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Support & Share](#support--share)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global cloud infrastructure testing and emulation market is valued at approximately **$13B–$15B** (projected to reach **$30B–$45B** by the early 2030s at an ~11–13% CAGR), driven by multi-cloud complexity, microservices shift-left testing, and AI container workloads. The sector remains **highly fragmented** across specialized cloud mockers, local virtual Kubernetes runtimes, and remote container test runners, with hyper-scalers and developer-platform leaders (e.g., Docker, OpenAI) selectively acquiring key category innovators rather than a single winner-take-all monopoly.
 
-## SaaS/Hosted Platforms
+---
+
+## 🏢 SaaS/Hosted Platforms
 
 | Platform | Company Size (Valuation / Revenue) | Pricing (Starting Tier) | Free Tier Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -55,154 +62,157 @@ The global cloud infrastructure testing and emulation market is valued at approx
 | **[Minikube Cloud / Managed K8s Sandboxes (KillerCoda / Instruqt)](https://killercoda.com)** | ~$5M–$15M Market footprint (KillerCoda bootstrapped / Instruqt raised $18M+) | KillerCoda PLUS at $9.99/month; Instruqt custom annual packages starting ~$15,000/year (~1,000 lab hrs) | KillerCoda Free Tier: 1 concurrent scenario, max 1 hour per session on community playgrounds; Instruqt: vendor-guided PoC trial only | Browser-hosted interactive Kubernetes and cloud-native lab environments for running isolated infrastructure sandboxes with zero local setup. |
 | **[Codeanywhere](https://codeanywhere.com)** | ~$2M–$5M Historical Valuation / ~$1M Total Raised / Wound Down (2026) | Historical: $12/month (Basic tier); platform ceased operations July 1, 2026 | Historical: 7-day free trial (up to 1 container); service currently wound down / redirected to Daytona | Browser-based cloud IDE and container workspace service providing instant SSH, Git, and DevContainer infrastructure from any device. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
+*Sorted in descending order by GitHub stargazers count.*
 
+1. **[Daytona](https://github.com/daytonaio/daytona)** [![GitHub stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers)  
+   📦 `daytonaio/daytona`  
+   Open-source Development Environment Manager and secure elastic runtime for provisioning standardized local, remote, or AI-agent infrastructure sandboxes with a single command.
 
-## Open-Source GitHub Projects
+2. **[LocalStack](https://github.com/localstack/localstack)** [![GitHub stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers)  
+   📦 `localstack/localstack`  
+   Flagship open-source cloud service emulator running inside a single Docker container to mock core AWS infrastructure (S3, Lambda, DynamoDB, SQS, SNS, IAM, CloudFormation) locally.
 
+3. **[MinIO](https://github.com/minio/minio)** [![GitHub stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers)  
+   📦 `minio/minio`  
+   High-performance open-source, S3-compatible object storage server widely used to mock AWS S3 buckets, presigned URLs, and event notifications locally.
 
+4. **[k3s](https://github.com/k3s-io/k3s)** [![GitHub stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers)  
+   📦 `k3s-io/k3s`  
+   Lightweight, fully compliant certified Kubernetes distribution packaged in a single binary (<100MB), ideal for local dev, edge computing, and offline staging clusters.
 
-- **[floci-io/floci](https://github.com)**  
+5. **[Minikube](https://github.com/kubernetes/minikube)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes/minikube?style=social&color=white)](https://github.com/kubernetes/minikube/stargazers)  
+   📦 `kubernetes/minikube`  
+   Official open-source tool for running local single-node and multi-node Kubernetes clusters across macOS, Linux, and Windows via Docker, QEMU, or KVM.
 
-  Open-source local cloud mocking and infrastructure simulation toolkit engineered for fast, lightweight offline cloud API emulation and reproducible testing workflows.
+6. **[floci-io/floci](https://github.com/floci-io/floci)** [![GitHub stars](https://img.shields.io/github/stars/floci-io/floci?style=social&color=white)](https://github.com/floci-io/floci/stargazers)  
+   📦 `floci-io/floci`  
+   Open-source local cloud mocking and infrastructure simulation toolkit engineered for fast, lightweight offline cloud API emulation and reproducible testing workflows.
 
+7. **[OpenTofu](https://github.com/opentofu/opentofu)** [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
+   📦 `opentofu/opentofu`  
+   Open-source, community-driven Infrastructure as Code (IaC) tool under Linux Foundation for provisioning local cloud emulators, Docker networks, and K8s clusters.
 
+8. **[OpenFaaS](https://github.com/openfaas/faas)** [![GitHub stars](https://img.shields.io/github/stars/openfaas/faas?style=social&color=white)](https://github.com/openfaas/faas/stargazers)  
+   📦 `openfaas/faas`  
+   Open-source serverless framework for Kubernetes and Docker enabling developers to emulate and test event-driven FaaS functions locally without cloud vendor lock-in.
 
-- **[LocalStack (`localstack/localstack`)](https://github.com)**  
+9. **[Pulumi](https://github.com/pulumi/pulumi)** [![GitHub stars](https://img.shields.io/github/stars/pulumi/pulumi?style=social&color=white)](https://github.com/pulumi/pulumi/stargazers)  
+   📦 `pulumi/pulumi`  
+   Universal Infrastructure-as-Code SDK using real programming languages (TypeScript, Python, Go, C#) supporting direct local deployments against LocalStack and local K8s.
 
-  Flagship open-source cloud service emulator running inside a single Docker container to mock core AWS infrastructure (S3, Lambda, DynamoDB, SQS, SNS, IAM, CloudFormation) locally.
+10. **[Coder](https://github.com/coder/coder)** [![GitHub stars](https://img.shields.io/github/stars/coder/coder?style=social&color=white)](https://github.com/coder/coder/stargazers)  
+    📦 `coder/coder`  
+    Open-source cloud development environment (CDE) platform provisioned via Terraform templates on self-hosted Kubernetes, Docker, or bare metal.
 
+11. **[kind (Kubernetes in Docker)](https://github.com/kubernetes-sigs/kind)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/kind?style=social&color=white)](https://github.com/kubernetes-sigs/kind/stargazers)  
+    📦 `kubernetes-sigs/kind`  
+    Fast open-source tool for running local Kubernetes clusters using Docker container "nodes," purpose-built for testing K8s controllers and CI/CD pipelines.
 
+12. **[DevPod](https://github.com/loft-sh/devpod)** [![GitHub stars](https://img.shields.io/github/stars/loft-sh/devpod?style=social&color=white)](https://github.com/loft-sh/devpod/stargazers)  
+    📦 `loft-sh/devpod`  
+    Open-source, client-only DevContainer orchestrator that turns any cloud VM, local Docker daemon, or Kubernetes cluster into a reproducible dev environment.
 
-- **[Testcontainers (`testcontainers/testcontainers-java` / `-python` / `-node` / `-go`)](https://github.com)**  
+13. **[vCluster](https://github.com/loft-sh/vcluster)** [![GitHub stars](https://img.shields.io/github/stars/loft-sh/vcluster?style=social&color=white)](https://github.com/loft-sh/vcluster/stargazers)  
+    📦 `loft-sh/vcluster`  
+    Popular open-source virtual Kubernetes cluster engine that spins up isolated, certified K8s control planes inside regular namespaces of a shared host cluster.
 
-  Industry-standard open-source library providing programmatic, throwaway Docker instances of databases, message brokers, and LocalStack directly inside unit and integration tests.
+14. **[Testcontainers](https://github.com/testcontainers/testcontainers-java)** [![GitHub stars](https://img.shields.io/github/stars/testcontainers/testcontainers-java?style=social&color=white)](https://github.com/testcontainers/testcontainers-java/stargazers)  
+    📦 `testcontainers/testcontainers-java` (also available for Go, Python, Node, .NET)  
+    Industry-standard open-source library providing programmatic, throwaway Docker instances of databases, message brokers, and LocalStack directly inside unit and integration tests.
 
+15. **[Moto](https://github.com/getmoto/moto)** [![GitHub stars](https://img.shields.io/github/stars/getmoto/moto?style=social&color=white)](https://github.com/getmoto/moto/stargazers)  
+    📦 `getmoto/moto`  
+    Widely adopted open-source Python library mocking over 100 AWS services via decorators or a standalone HTTP server mode for fast offline unit testing.
 
+16. **[WireMock](https://github.com/wiremock/wiremock)** [![GitHub stars](https://img.shields.io/github/stars/wiremock/wiremock?style=social&color=white)](https://github.com/wiremock/wiremock/stargazers)  
+    📦 `wiremock/wiremock`  
+    Popular open-source tool for stubbing and mocking HTTP APIs, external microservices, and third-party REST endpoints in local and automated test suites.
 
-- **[Moto (`getmoto/moto`)](https://github.com)**  
+17. **[AWS SAM CLI](https://github.com/aws/aws-sam-cli)** [![GitHub stars](https://img.shields.io/github/stars/aws/aws-sam-cli?style=social&color=white)](https://github.com/aws/aws-sam-cli/stargazers)  
+    📦 `aws/aws-sam-cli`  
+    Official AWS CLI tool for locally developing, testing, and debugging serverless applications defined by AWS Serverless Application Model (SAM) templates.
 
-  Widely adopted open-source Python library mocking over 100 AWS services via decorators or a standalone HTTP server mode for fast offline unit testing.
+18. **[k3d](https://github.com/k3d-io/k3d)** [![GitHub stars](https://img.shields.io/github/stars/k3d-io/k3d?style=social&color=white)](https://github.com/k3d-io/k3d/stargazers)  
+    📦 `k3d-io/k3d`  
+    Lightweight open-source wrapper to run Rancher Lab's k3s in Docker, enabling multi-node local Kubernetes clusters spun up in under 5 seconds.
 
+19. **[Serverless Offline](https://github.com/dherault/serverless-offline)** [![GitHub stars](https://img.shields.io/github/stars/dherault/serverless-offline?style=social&color=white)](https://github.com/dherault/serverless-offline/stargazers)  
+    📦 `dherault/serverless-offline`  
+    Serverless Framework plugin that emulates AWS Lambda and API Gateway locally on your computer to speed up local development cycles.
 
+20. **[Miniflare (Cloudflare Workers SDK)](https://github.com/cloudflare/workers-sdk)** [![GitHub stars](https://img.shields.io/github/stars/cloudflare/workers-sdk?style=social&color=white)](https://github.com/cloudflare/workers-sdk/stargazers)  
+    📦 `cloudflare/workers-sdk` (Miniflare / Wrangler)  
+    Full-featured open-source local simulator for Cloudflare Workers, KV, R2, D1, Durable Objects, and Queues powered by `workerd`.
 
-- **[vCluster (`loft-sh/vcluster`)](https://github.com)**  
+21. **[Firebase Local Emulator Suite](https://github.com/firebase/firebase-tools)** [![GitHub stars](https://img.shields.io/github/stars/firebase/firebase-tools?style=social&color=white)](https://github.com/firebase/firebase-tools/stargazers)  
+    📦 `firebase/firebase-tools`  
+    Official local emulator suite for Google Cloud Firestore, Realtime Database, Cloud Functions, Auth, and Storage.
 
-  Popular open-source virtual Kubernetes cluster engine that spins up isolated, certified K8s control planes inside regular namespaces of a shared host cluster.
+22. **[Azurite](https://github.com/Azure/Azurite)** [![GitHub stars](https://img.shields.io/github/stars/Azure/Azurite?style=social&color=white)](https://github.com/Azure/Azurite/stargazers)  
+    📦 `Azure/Azurite`  
+    Official open-source cross-platform emulator for Microsoft Azure Storage (Blob, Queue, and Table) enabling local offline cloud development.
 
-
-
-- **[Daytona (`daytonaio/daytona`)](https://github.com)**  
-
-  Open-source Development Environment Manager and secure elastic runtime for provisioning standardized local, remote, or AI-agent infrastructure sandboxes with a single command.
-
-
-
-- **[Minikube (`kubernetes/minikube`)](https://github.com)**  
-
-  Official open-source tool for running local single-node and multi-node Kubernetes clusters across macOS, Linux, and Windows via Docker, QEMU, or KVM.
-
-
-
-- **[kind — Kubernetes in Docker (`kubernetes-sigs/kind`)](https://github.com)**  
-
-  Fast open-source tool for running local Kubernetes clusters using Docker container "nodes," purpose-built for testing K8s controllers and CI/CD pipelines.
-
-
-
-- **[MinIO (`minio/minio`)](https://github.com)**  
-
-  High-performance open-source, S3-compatible object storage server widely used to mock AWS S3 buckets, presigned URLs, and event notifications locally.
-
-
-
-- **[Azurite (`Azure/Azurite`)](https://github.com)**  
-
-  Official open-source cross-platform emulator for Microsoft Azure Storage (Blob, Queue, and Table) enabling local offline cloud development and automated testing.
-
-
-
-- **[Miniflare (`cloudflare/workers-sdk`)](https://github.com)**  
-
-  Full-featured open-source local simulator for Cloudflare Workers, KV, R2, D1, Durable Objects, and Queues powered by `workerd`.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[DevPod (`loft-sh/devpod`)](https://github.com)** and **[Coder (`coder/coder`)](https://github.com)** for open-source DevContainer and Terraform-provisioned self-hosted development environments.
-
-- **[k3d (`k3d-io/k3d`)](https://github.com)** for spinning up ultra-fast, lightweight Rancher k3s Kubernetes clusters inside Docker containers in seconds.
-
-- **[fake-gcs-server (`fsouza/fake-gcs-server`)](https://github.com)** and **[Firebase Local Emulator Suite (`firebase/firebase-tools`)](https://github.com)** for local Google Cloud Storage, Firestore, Auth, and Pub/Sub emulation.
-
-- **[Serverless Offline (`dherault/serverless-offline`)](https://github.com)** and **[AWS SAM CLI (`aws/aws-sam-cli`)](https://github.com)** for running and debugging AWS Lambda and API Gateway functions locally in Docker.
-
-- **[OpenTofu (`opentofu/opentofu`)](https://github.com)** and **[Pulumi (`pulumi/pulumi`)](https://github.com)** for open-source Infrastructure-as-Code (IaC) provisioning directly against LocalStack, `floci-io/floci`, and local Kubernetes clusters.
-
-
-
-**Frameworks for building custom systems**: Combine **LocalStack** or **floci-io/floci** with **OpenTofu** for offline Infrastructure-as-Code validation, **Testcontainers** for automated integration test suites, and **vCluster** or **kind** for ephemeral Kubernetes environments.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Local cloud mocking tools approximate cloud provider APIs, IAM evaluation, and eventual consistency; always run final security, quota, and integration validation against real staging cloud environments before production releases.
-
-- Self-hosted developer infrastructure (`Coder`, `Daytona`, `Testcontainers`) requiring access to the host Docker socket (`/var/run/docker.sock`) must enforce strict network isolation and RBAC policies.
-
-
+23. **[fake-gcs-server](https://github.com/fsouza/fake-gcs-server)** [![GitHub stars](https://img.shields.io/github/stars/fsouza/fake-gcs-server?style=social&color=white)](https://github.com/fsouza/fake-gcs-server/stargazers)  
+    📦 `fsouza/fake-gcs-server`  
+    Lightweight, standalone emulator for Google Cloud Storage (GCS) providing a local HTTP server and Docker image for integration tests.
 
 ---
 
+## 🛠️ Frameworks & Architecture Patterns
 
+Combine these open-source tools to build an offline, production-grade cloud development feedback loop:
 
-**Made for cloud architects, DevOps/platform engineers, backend developers, and open-source contributors.**  
+- **Offline Cloud Emulation**: Combine `LocalStack`, `Moto`, or `floci-io/floci` with `OpenTofu` or `Pulumi` for offline Infrastructure-as-Code dry runs.
+- **Microservices & Integration Tests**: Use `Testcontainers` alongside `WireMock` and `MinIO` for programmatic, containerized test execution in CI/CD runners without live cloud keys.
+- **Isolated Multi-Tenant Kubernetes**: Leverage `vCluster` or `kind` / `k3d` to create zero-cost, disposable Kubernetes clusters on top of single-node host systems.
 
-Let's make cloud infrastructure testing and local cloud mocking more open, fast, and cost-free.
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Cloud-Infrastructure-Local-Cloud-Mocking&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Cloud-Infrastructure-Local-Cloud-Mocking&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help expand the curated ecosystem:
+
+1. 🍴 **Fork the repository**.
+2. 🌿 Create a new branch (`git checkout -b feature/add-new-tool`).
+3. 📝 Add or update entries in `README.md` (keep descriptions factual, concise, and linked to official repositories).
+4. 🚀 Submit a Pull Request with a clear explanation of your addition.
+
+---
+
+## 💖 Support & Share
+
+Thank you for exploring and using **Awesome Cloud Infrastructure & Local Cloud Mocking**! If this repository helped streamline your development, saved testing costs, or introduced you to new tooling, please consider supporting the project:
+
+- ⭐ **Star this repository** to help fellow developers and engineers discover it.
+- 🍴 **Fork & Share** it with your engineering team, DevOps community, and on social channels.
+- ☕ **Buy me a coffee / Sponsor** my open-source work via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) — every bit of sponsorship supports maintaining active, high-quality open-source ecosystem lists!
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20me-%E2%9D%A4-pink?style=for-the-badge&logo=github-sponsors" alt="Sponsor ishandutta2007 on GitHub Sponsors" />
+  </a>
+</p>
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an independent, community-curated list — not an official endorsement from cloud providers.
+- Local cloud mocking tools approximate cloud provider APIs, IAM evaluation, and eventual consistency; always validate critical security, IAM policies, quotas, and architecture against actual staging cloud environments before production rollout.
+- Self-hosted developer infrastructure requiring Docker socket access (`/var/run/docker.sock`) should always be configured with proper RBAC controls and network sandboxing.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for Cloud Architects, DevOps Engineers, and Backend Developers.</b>
+</p>
